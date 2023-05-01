@@ -92,6 +92,8 @@ input:hover {
   text-transform: uppercase;
 }
 
+
+
 .botao__principal:active {
   color: var(--orange);
   background-color: var(--color-white);

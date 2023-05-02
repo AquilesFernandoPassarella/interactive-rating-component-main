@@ -1,3 +1,4 @@
+@import url(./message--final.css);
 :root {
   --font-principal: "Overpass", sans-serif;
   --orange: hsl(25, 97%, 53%);
@@ -14,6 +15,13 @@ body {
   font-family: var(--font-principal);
 }
 
+.avaliacao{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  
+}
+
 .imagem__principal {
   background-color: var(--cor-botao);
   width: 45px;
@@ -23,7 +31,7 @@ body {
   justify-content: center;
 }
 
-img {
+.image__star {
   margin: auto;
   height: 16px;
   width: 17px;
@@ -35,11 +43,12 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 325px;
+  height: 360px;
   margin: 30px auto;
   padding: 22px;
   width: 80%;
   max-width: 365px;
+  
 }
 
 .titulo__principal {
@@ -92,12 +101,11 @@ input:hover {
   text-transform: uppercase;
 }
 
-
-
 .botao__principal:active {
   color: var(--orange);
   background-color: var(--color-white);
 }
+
 
 @media only screen and (max-width: 460px){
 

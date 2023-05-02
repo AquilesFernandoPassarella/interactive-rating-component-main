@@ -1,0 +1,41 @@
+
+.message__final{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
+  
+  .image__message{
+    margin: 20px auto;
+   
+  }
+  
+  .selecionate{
+    display: flex;
+    justify-content: center;  
+    background-color: var(--cor-botao);
+    width: 175px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  .selecionate__rating{
+    color: var(--orange);
+    
+    
+  }
+  .message__thank--you{
+    color: var(--color-white);
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px auto;
+  }
+  
+  .appreciate{
+    margin-top: -15px;
+    color: var(--color-white);
+    text-align: center;
+    line-height: 25px;
+  }

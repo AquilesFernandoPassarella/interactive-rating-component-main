@@ -27,13 +27,13 @@ body {
   width: 80%;
   max-width: 365px;
 }
-
+.container{
+  display: block;
+}
 .avaliacao{
   display: flex;
   flex-direction: column;
   gap: 25px;
-  display: normal;
-  
 }
 
 
